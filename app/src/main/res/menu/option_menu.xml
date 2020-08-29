@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/addPokemon"
+        android:title="Agregar Pokemon"
+        android:icon="@android:drawable/ic_menu_add"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="1">
+    </item>
+
+    <item
+        android:id="@+id/btnLV"
+        android:title="List view"
+        android:icon="@mipmap/list_menu"
+        android:orderInCategory="2"
+        android:visible="false"
+        app:showAsAction="ifRoom">
+
+    </item>
+
+    <item
+        android:id="@+id/btnGV"
+        android:title="Grid view"
+        android:icon="@mipmap/grid_menu"
+        android:orderInCategory="2"
+        app:showAsAction="ifRoom">
+
+    </item>
+
+</menu>
